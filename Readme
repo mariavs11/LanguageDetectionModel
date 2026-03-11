@@ -1,0 +1,28 @@
+
+Install dependencies
+
+pip install torch librosa numpy scikit-learn matplotlib soundfile
+
+
+To train model using CNN, use "train.py". Manually edit the amount of epochs and the name of the model. The following will, by default, train the model using 15 epochs and name the model as "cnn_model_15epochs.pt". It will then evaluate model with the Test data. 
+Usage:
+python3 scripts/train.py
+
+
+The "predict.py" script was created to separate training from evaluation. It performs only evaluation by loading the saved model and predicting each class. It runs the Test set through our model "cnn_model_15epochs_redo.pth". 
+
+Usage:
+python3 scripts/predict.py
+
+
+The svm_voice_detector_train.py script was created to implement the SVM. It trains and evalutes model.
+
+Usage:
+python3 scripts/svm_voice_detector_train.py
+
+
+
+
+
+
+
