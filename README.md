@@ -62,3 +62,13 @@ The `svm_voice_detector_train.py` script trains and evaluates the SVM model.
 ```bash
 python3 scripts/svm_voice_detector_train.py
 ```
+## Dataset
+
+The training and testing data are not included in this repository.  
+Audio recordings are available from the LibriSpeech dataset:
+
+LibriSpeech ASR Corpus  
+Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur  
+https://www.openslr.org/12  
+
+LibriSpeech is distributed under the Creative Commons Attribution 4.0 (CC BY 4.0) license.
